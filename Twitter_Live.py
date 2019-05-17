@@ -3,6 +3,7 @@ import tweepy
 from tweepy import OAuthHandler
 from textblob import TextBlob
 import unicodedata
+import os
 
 
 class TwitterClient(object):
